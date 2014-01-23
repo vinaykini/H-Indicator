@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="timetable.tt"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/iconn" android:label="@string/app_name">
+        <activity android:name=".indicator"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	<activity class=".weekday" android:name=".weekday" android:label="Weekday"></activity>
+	<activity class=".saturday" android:name=".saturday" android:label="Saturday"></activity>
+	<activity class=".sunday" android:name=".sunday" android:label="Sunday"></activity>
+	<activity class=".station1" android:name=".station1" android:label="Towards Station"></activity>
+	<activity class=".estate1" android:name=".estate1" android:label="Towards Estate"></activity>
+	<activity class=".station2" android:name=".station2" android:label="Towards Station"></activity>
+	<activity class=".estate2" android:name=".estate2" android:label="Towards Estate"></activity>
+	<activity class=".station3" android:name=".station3" android:label="Towards Station"></activity>
+	<activity class=".estate3" android:name=".estate3" android:label="Towards Estate"></activity>
+	<activity class=".contactus" android:name=".contactus" android:label="Contact Us"></activity>
+	<activity class=".information" android:name=".information" android:label="Information"></activity>
+    </application>
+</manifest>

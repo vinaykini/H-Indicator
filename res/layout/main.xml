@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/iconn">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Weekday"
+        android:width="500px" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:text="Saturday"
+    android:width="500px" >
+
+</Button>
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Sunday"
+    android:width="500px" >
+</Button>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/contact" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/info" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/end">
+<TextView  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:width="200px" 
+    android:textSize="35px" 
+    android:text="SUNDAY"/>
+
+<DigitalClock
+    android:id="@+id/digitalClock1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="DigitalClock" >
+</DigitalClock>
+
+<Button
+    android:id="@+id/station3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="200px"
+    android:text="Towards Station"
+    android:width="500px" >
+</Button>
+
+<Button
+    android:id="@+id/estate3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Towards Hiranandani Estate"
+    android:width="500px" >
+</Button>
+</LinearLayout>
